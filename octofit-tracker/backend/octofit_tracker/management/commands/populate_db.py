@@ -3,7 +3,7 @@ from octofit_tracker.models import User, Team, Activity, Leaderboard, Workout
 
 # Ensure the Command class is properly defined and accessible
 class Command(BaseCommand):
-    help = 'Populate the database with test data'
+    help = 'Populate the database with test data for users, teams, activity, leaderboard, and workout'
 
     def handle(self, *args, **kwargs):
         # Clear existing data
